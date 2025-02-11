@@ -1,0 +1,22 @@
+flowchart TD
+    1((Start))
+    2[Process 1]
+    1 --> 2
+    3{Decision 2}
+    3_yes[Yes Path 3]
+    3_no[No Path 3]
+    2 --> 3
+    3 -- Yes --> 3_yes
+    3 -- No --> 3_no
+    3_yes -- Loop Back --> 1
+    4{Decision 3}
+    4_yes[Yes Path 4]
+    4_no[No Path 4]
+    3_no --> 4
+    4 -- Yes --> 4_yes
+    4 -- No --> 4_no
+    4_yes -- Loop Back --> 1
+    5[Process 4]
+    4_no --> 5
+    6((End))
+    5 --> 6
