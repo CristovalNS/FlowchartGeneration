@@ -4,8 +4,8 @@ from graphviz import Digraph
 
 def generate_vertical_branching_flowchart(num_flowcharts, min_nodes, max_nodes):
     # Ensure directories exist
-    os.makedirs("branching_flowcharts/V_branching_system_flowchart_test_files/flowchart_img", exist_ok=True)
-    os.makedirs("branching_flowcharts/V_branching_system_flowchart_test_files/mermaid_txt", exist_ok=True)
+    os.makedirs("cyclical_branching_flowcharts/V_branching_system_flowchart_test_files/flowchart_img", exist_ok=True)
+    os.makedirs("cyclical_branching_flowcharts/V_branching_system_flowchart_test_files/mermaid_txt", exist_ok=True)
 
     for flowchart_index in range(1, num_flowcharts + 1):
         num_nodes = random.randint(min_nodes, max_nodes)
@@ -96,14 +96,14 @@ def generate_vertical_branching_flowchart(num_flowcharts, min_nodes, max_nodes):
 
         # Save the flowchart image
         flowchart_image_path = os.path.join(
-            "branching_flowcharts/V_branching_system_flowchart_test_files/flowchart_img",
+            "cyclical_branching_flowcharts/V_branching_system_flowchart_test_files/flowchart_img",
             f"branching_flowchart_{flowchart_index}.png"
         )
         dot.render(flowchart_image_path, cleanup=True)
 
         # Save the Mermaid code to a text file
         mermaid_text_path = os.path.join(
-            "branching_flowcharts/V_branching_system_flowchart_test_files/mermaid_txt",
+            "cyclical_branching_flowcharts/V_branching_system_flowchart_test_files/mermaid_txt",
             f"mermaid_code_{flowchart_index}.txt"
         )
         with open(mermaid_text_path, "w") as mermaid_file:

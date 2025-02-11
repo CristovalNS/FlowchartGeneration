@@ -1,0 +1,22 @@
+flowchart LR
+    1((Start))
+    2[Process 1]
+    1 --> 2
+    3[Process 2]
+    2 --> 3
+    4{Decision 3}
+    4_yes[Yes Path 4]
+    4_no[No Path 4]
+    3 --> 4
+    4 -- Yes --> 4_yes
+    4 -- No --> 4_no
+    5{Decision 4}
+    5_yes[Yes Path 5]
+    5_no[No Path 5]
+    4_yes --> 5
+    4_no --> 5
+    5 -- Yes --> 5_yes
+    5 -- No --> 5_no
+    6((End))
+    5_yes --> 6
+    5_no --> 6
