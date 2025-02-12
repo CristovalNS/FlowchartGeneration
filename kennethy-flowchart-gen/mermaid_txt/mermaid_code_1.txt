@@ -1,0 +1,24 @@
+flowchart TD
+    0(Start)
+    1[/IO 2/]
+    0 --> 1
+    2[Process 2]
+    1 --> 2
+    3{Decision 2}
+    2 --> 3
+    4[Process 3]
+    3 -- No --> 4
+    5{Decision 3}
+    3 -- Yes --> 5
+    6{Decision 4}
+    5 -- No --> 6
+    7[/IO 3/]
+    5 -- Yes --> 7
+    8{Decision 5}
+    6 -- Yes --> 8
+    9[Process 4]
+    8 -- No --> 9
+    10(End)
+    4 --> 10
+    7 --> 10
+    9 --> 10
