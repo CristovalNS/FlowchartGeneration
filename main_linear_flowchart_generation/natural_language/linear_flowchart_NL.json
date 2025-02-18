@@ -1,0 +1,286 @@
+[
+    {
+        "flowchart_id": 1,
+        "description": "This flowchart represents a structured linear process that begins with a Start node and progresses through a sequence of process steps and input/output (I/O) operations before reaching the End node. The flow follows a left-to-right (LR) direction, indicating a structured workflow. The process starts at the Start node and moves to Process 1, which represents the first step in the workflow. The output from this step leads to Process 2, continuing the sequence. After Process 2, the flow encounters an I/O operation, labeled 'I/O 3,' indicating an interaction where data is received or sent. Following the I/O operation, the workflow proceeds to Process 4, which is another action or transformation step. From there, another I/O operation, labeled 'I/O 5,' occurs, likely handling additional data exchanges. After the second I/O operation, the flow moves to Process 6 and then transitions to Process 7, which is the final processing step. Finally, the flowchart concludes at the End node, marking the completion of the process. This flowchart is designed to illustrate a structured sequence of steps where processes alternate with I/O operations, ensuring data is handled at key points before reaching the final stage.",
+        "direction": "LR",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_1.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_1.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_1.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a structured linear process that moves through sequential steps, alternating between process nodes and input/output operations before reaching the End."
+            },
+            {
+                "question": "What does the Start node represent in this flowchart?",
+                "answer": "The Start node signifies the beginning of the process, where the workflow is initiated."
+            },
+            {
+                "question": "How does the flowchart progress after the Start node?",
+                "answer": "After the Start node, the flow moves sequentially through Process 1, followed by Process 2, before reaching an I/O operation."
+            },
+            {
+                "question": "What is the role of I/O nodes in this flowchart?",
+                "answer": "I/O nodes represent input or output operations where data is either received or sent as part of the workflow."
+            },
+            {
+                "question": "How many I/O operations are present in this flowchart?",
+                "answer": "This flowchart contains two I/O operations, labeled 'I/O 3' and 'I/O 5,' occurring after Process 2 and Process 4."
+            },
+            {
+                "question": "What happens after the second I/O operation?",
+                "answer": "After the second I/O operation, the flowchart proceeds through Process 6 and Process 7 before reaching the End node."
+            },
+            {
+                "question": "What is the final step in the flowchart?",
+                "answer": "The final step before completion is Process 7, after which the flow reaches the End node, marking the conclusion of the process."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart is strucutred horizontally, with nodes starting from left and ending at the right."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 2,
+        "description": "This flowchart represents a structured vertical process that follows a top-to-bottom (TB) sequence. It begins with a Start node and moves through multiple process steps interspersed with input/output (I/O) operations before reaching the End node. The process starts at the Start node and transitions into Process 1 and Process 2. After Process 2, the flowchart encounters an I/O operation labeled 'I/O 3,' signifying data exchange. Following this, the process advances through Process 4 and Process 5 before encountering another I/O operation labeled 'I/O 6.' The workflow then continues through Process 7 and Process 8 before terminating at the End node. The alternating pattern of process steps and I/O nodes highlights a structured data processing system where key interactions occur at different stages.",
+        "direction": "TB",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_2.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_2.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_2.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a structured process that moves from Start to End, alternating between processing steps and input/output operations."
+            },
+            {
+                "question": "What does the Start node represent?",
+                "answer": "The Start node marks the initiation of the process and leads into the first processing step."
+            },
+            {
+                "question": "How does the flowchart handle data input and output?",
+                "answer": "The flowchart contains two I/O nodes labeled 'I/O 3' and 'I/O 6,' which handle data exchanges at different points in the process."
+            },
+            {
+                "question": "What happens after the second I/O operation?",
+                "answer": "After the second I/O operation, the workflow proceeds through Process 7 and Process 8 before reaching the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart is structured vertically, with nodes arranged from top to bottom."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 3,
+        "description": "This flowchart follows a left-to-right (LR) structure and represents a sequential process involving input/output operations at critical stages. The process starts at the Start node and moves into Process 1, after which an I/O operation labeled 'I/O 2' occurs. Following the I/O operation, the flowchart transitions into Process 3 and Process 4 before reaching another I/O node, labeled 'I/O 5.' The final steps involve Process 6, leading to the End node, marking the completion of the process.",
+        "direction": "LR",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_3.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_3.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_3.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart models a process flow that includes data exchanges at key stages, structured in a left-to-right format."
+            },
+            {
+                "question": "How many I/O operations occur in this flowchart?",
+                "answer": "This flowchart contains two I/O operations, labeled 'I/O 2' and 'I/O 5'."
+            },
+            {
+                "question": "What is the final step in this process?",
+                "answer": "The final step is Process 6, which leads to the End node, marking the process's completion."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart is structured horizontally, moving from left to right."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 4,
+        "description": "This flowchart is a vertically structured process flowchart that moves from top to bottom (TB). It begins with a Start node and progresses through various process steps and input/output operations before reaching the End node. The process involves alternating steps, where data is processed and exchanged at multiple stages. The workflow follows a structured pattern of decision-making and interactions, ensuring systematic data flow and operations.",
+        "direction": "TB",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_4.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_4.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_4.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a structured process where tasks and data exchanges occur in a top-to-bottom sequence."
+            },
+            {
+                "question": "How does this flowchart handle data interactions?",
+                "answer": "It alternates between process nodes and I/O nodes to ensure data is properly exchanged at various stages."
+            },
+            {
+                "question": "How many input/output operations are present in this flowchart?",
+                "answer": "There are multiple I/O operations labeled 'I/O 2,' 'I/O 4,' 'I/O 7,' and 'I/O 11.'"
+            },
+            {
+                "question": "What happens in the final steps before reaching the End node?",
+                "answer": "The process moves through multiple processing steps before a final I/O operation, leading to the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a vertical format, progressing from top to bottom."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 5,
+        "description": "This flowchart follows a left-to-right (LR) structure and represents a simple sequential process with multiple processing steps leading to an End node. The flow starts at the Start node, progresses through a series of processes (Process 1 through Process 9), and ends at the End node. There are no input/output operations in this flowchart, making it a purely process-driven structure.",
+        "direction": "LR",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_5.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_5.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_5.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a simple linear process that follows a left-to-right sequence without any input/output operations."
+            },
+            {
+                "question": "How does this flowchart differ from others?",
+                "answer": "This flowchart is simpler, as it does not contain any I/O operations and focuses only on sequential process steps."
+            },
+            {
+                "question": "What is the final process step before completion?",
+                "answer": "The final process step is Process 9, which leads to the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart is structured horizontally, following a left-to-right progression."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 6,
+        "description": "This flowchart follows a top-to-bottom (TB) structure and represents a sequential process with alternating input/output (I/O) operations and process steps. The process starts at the Start node, leading to an I/O operation, followed by Process 2. After Process 2, another I/O operation occurs, leading into Process 4. The sequence continues with alternating process steps and I/O operations until Process 9, which transitions into the End node. This structure ensures data interactions occur at key points before reaching completion.",
+        "direction": "TB",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_6.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_6.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_6.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a structured process that includes multiple I/O operations between processing steps to ensure data interactions occur at key points."
+            },
+            {
+                "question": "How many I/O operations are included in this flowchart?",
+                "answer": "This flowchart contains four I/O operations, labeled 'I/O 1,' 'I/O 3,' 'I/O 5,' and 'I/O 7.'"
+            },
+            {
+                "question": "What happens in the final steps before reaching the End node?",
+                "answer": "The flowchart moves through Process 8 and Process 9 before concluding at the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a vertical format, progressing from top to bottom."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 7,
+        "description": "This flowchart is structured from left to right (LR) and represents a sequential process that includes input/output (I/O) operations at key stages. It starts at the Start node, transitions into Process 1, and then encounters an I/O operation. Following this, the process continues through a series of process steps, including another I/O operation before reaching the End node.",
+        "direction": "LR",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_7.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_7.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_7.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart models a structured process that includes a series of processing steps interspersed with input/output operations."
+            },
+            {
+                "question": "How does the flowchart handle data exchange?",
+                "answer": "It includes two I/O operations, 'I/O 2' and 'I/O 6,' to facilitate data exchange at different points in the workflow."
+            },
+            {
+                "question": "What happens after the last input/output operation?",
+                "answer": "After the last I/O operation, the flow proceeds through Process 7 and Process 8 before reaching the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a horizontal format, progressing from left to right."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 8,
+        "description": "This flowchart follows a top-to-bottom (TB) structure and consists of process steps and input/output operations. The process begins at the Start node, moves through sequential process steps, and includes two key I/O operations before reaching the End node.",
+        "direction": "TB",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_8.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_8.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_8.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a sequential process with input/output operations occurring between process steps."
+            },
+            {
+                "question": "How does the process progress?",
+                "answer": "The process starts at the Start node, moves through process steps, and includes I/O operations at key points before reaching the End node."
+            },
+            {
+                "question": "How many I/O operations occur in this flowchart?",
+                "answer": "There are two I/O operations labeled 'I/O 2' and 'I/O 5.'"
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a vertical format, moving from top to bottom."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 9,
+        "description": "This flowchart follows a left-to-right (LR) structure and consists of sequential processing steps with two input/output operations occurring at critical points. The process begins at the Start node, moves through processing steps, and concludes at the End node after a final data exchange.",
+        "direction": "LR",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_9.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_9.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_9.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart models a structured workflow with sequential process steps and input/output operations at specific intervals."
+            },
+            {
+                "question": "How does this flowchart handle data exchange?",
+                "answer": "It contains two I/O operations labeled 'I/O 3' and 'I/O 6' to facilitate data exchanges."
+            },
+            {
+                "question": "What happens in the final step before reaching the End node?",
+                "answer": "The last step before completion involves a final I/O operation before transitioning to the End node."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a horizontal format, progressing from left to right."
+            }
+        ]
+    },
+    {
+        "flowchart_id": 10,
+        "description": "This flowchart follows a top-to-bottom (TB) structure and represents a multi-step sequential process. The process begins at the Start node and progresses through multiple process steps before concluding at the End node. Unlike some other flowcharts, this one does not include input/output operations.",
+        "direction": "TB",
+        "flowchart_img": "main_linear_flowchart_generation/flowchart_img/flowchart_10.png",
+        "mermaid_file": "main_linear_flowchart_generation/mermaid_txt/mermaid_code_10.txt",
+        "graphviz_file": "main_linear_flowchart_generation/graphviz_txt/graphviz_code_10.dot",
+        "qa_pairs": [
+            {
+                "question": "What is the purpose of this flowchart?",
+                "answer": "This flowchart represents a structured sequential process without any input/output operations."
+            },
+            {
+                "question": "How does the process progress?",
+                "answer": "The process follows a step-by-step progression from the Start node through multiple process steps before reaching the End node."
+            },
+            {
+                "question": "How does this flowchart differ from others?",
+                "answer": "Unlike other flowcharts, this one does not contain input/output operations and focuses only on sequential processing."
+            },
+            {
+                "question": "What is the flowchart structure or shape?",
+                "answer": "The flowchart follows a vertical format, progressing from top to bottom."
+            }
+        ]
+    }
+]
