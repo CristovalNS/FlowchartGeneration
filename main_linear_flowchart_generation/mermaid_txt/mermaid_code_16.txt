@@ -1,0 +1,20 @@
+flowchart TB
+    1((Start))
+    2[/1 I/O/]
+    1 --> 2
+    3[Process 2]
+    2 --> 3
+    4[Process 3]
+    3 --> 4
+    5[/4 I/O/]
+    4 --> 5
+    6[Process 5]
+    5 --> 6
+    7[/6 I/O/]
+    6 --> 7
+    8[Process 7]
+    7 --> 8
+    9[Process 8]
+    8 --> 9
+    10((End))
+    9 --> 10

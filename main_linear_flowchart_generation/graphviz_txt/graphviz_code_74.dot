@@ -1,0 +1,33 @@
+// Linear Flowchart 74
+digraph {
+	rankdir=TB
+	1 [label=Start shape=oval]
+	2 [label="I/O 1" shape=parallelogram]
+	1 -> 2
+	3 [label="Process 2" shape=box]
+	2 -> 3
+	4 [label="I/O 3" shape=parallelogram]
+	3 -> 4
+	5 [label="Process 4" shape=box]
+	4 -> 5
+	6 [label="I/O 5" shape=parallelogram]
+	5 -> 6
+	7 [label="Process 6" shape=box]
+	6 -> 7
+	8 [label="Process 7" shape=box]
+	7 -> 8
+	9 [label="Process 8" shape=box]
+	8 -> 9
+	10 [label="I/O 9" shape=parallelogram]
+	9 -> 10
+	11 [label="Process 10" shape=box]
+	10 -> 11
+	12 [label="I/O 11" shape=parallelogram]
+	11 -> 12
+	13 [label="Process 12" shape=box]
+	12 -> 13
+	14 [label="I/O 13" shape=parallelogram]
+	13 -> 14
+	15 [label=End shape=oval]
+	14 -> 15
+}

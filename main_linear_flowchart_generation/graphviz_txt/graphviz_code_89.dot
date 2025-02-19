@@ -1,0 +1,13 @@
+// Linear Flowchart 89
+digraph {
+	rankdir=LR
+	1 [label=Start shape=oval]
+	2 [label="I/O 1" shape=parallelogram]
+	1 -> 2
+	3 [label="Process 2" shape=box]
+	2 -> 3
+	4 [label="I/O 3" shape=parallelogram]
+	3 -> 4
+	5 [label=End shape=oval]
+	4 -> 5
+}

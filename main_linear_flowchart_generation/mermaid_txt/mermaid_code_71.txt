@@ -1,0 +1,12 @@
+flowchart LR
+    1((Start))
+    2[/1 I/O/]
+    1 --> 2
+    3[Process 2]
+    2 --> 3
+    4[/3 I/O/]
+    3 --> 4
+    5[Process 4]
+    4 --> 5
+    6((End))
+    5 --> 6

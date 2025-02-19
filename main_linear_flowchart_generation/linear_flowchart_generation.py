@@ -146,7 +146,7 @@ def generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes):
 
 # Generate the results (Can control variables here)
 if __name__ == "__main__":
-    num_flowcharts = 5  # Number of new flowcharts to generate
+    num_flowcharts = 85  # Number of new flowcharts to generate
     min_nodes = 5        # Minimum number of nodes
     max_nodes = 15       # Maximum number of nodes
     generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes)

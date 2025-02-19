@@ -1,0 +1,25 @@
+// Linear Flowchart 88
+digraph {
+	rankdir=TB
+	1 [label=Start shape=oval]
+	2 [label="I/O 1" shape=parallelogram]
+	1 -> 2
+	3 [label="Process 2" shape=box]
+	2 -> 3
+	4 [label="Process 3" shape=box]
+	3 -> 4
+	5 [label="I/O 4" shape=parallelogram]
+	4 -> 5
+	6 [label="Process 5" shape=box]
+	5 -> 6
+	7 [label="Process 6" shape=box]
+	6 -> 7
+	8 [label="I/O 7" shape=parallelogram]
+	7 -> 8
+	9 [label="Process 8" shape=box]
+	8 -> 9
+	10 [label="Process 9" shape=box]
+	9 -> 10
+	11 [label=End shape=oval]
+	10 -> 11
+}
