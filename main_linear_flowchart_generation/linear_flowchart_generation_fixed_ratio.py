@@ -23,7 +23,23 @@ def get_last_flowchart_index(directories, file_pattern):
 
     return max_index  
 
+
+def resize_image(image_path, output_size=(512, 512)):
+    """Resize image to target size while maintaining aspect ratio."""
+    with Image.open(image_path) as img:
+        img.thumbnail(output_size, Image.Resampling.LANCZOS)
+
+        # Create white background to place the image on (centered)
+        final_img = Image.new("RGB", output_size, "white")
+        final_img.paste(
+            img, ((output_size[0] - img.width) // 2, (output_size[1] - img.height) // 2)
+        )
+        final_img.save(image_path)  # Overwrite the original image
+        return final_img.size
+
+
 def generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes):
+    """Generates linear flowcharts with adjustable DPI and size for readability."""
     # Define directories
     flowchart_img_dir = "main_linear_flowchart_generation/flowchart_img"
     mermaid_txt_dir = "main_linear_flowchart_generation/mermaid_txt"
@@ -48,6 +64,12 @@ def generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes):
         direction = "LR" if flowchart_index % 2 == 1 else "TB"  # Horizontal for odd, vertical for even
         dot = Digraph(comment=f'Linear Flowchart {flowchart_index}', format='png')
         dot.attr(rankdir=direction)
+
+        # ** Set DPI and Size for Better Quality **
+        dot.attr(dpi="600")  # High DPI for better text quality
+        dot.attr(size="6,6")  # Limit image size for clarity
+        dot.attr(fontname="Arial", fontsize="16")  # Better text readability
+        dot.attr(nodesep="0.5", ranksep="0.5")  # Adjust spacing between nodes
 
         # Generate Mermaid code
         mermaid_code = f"flowchart {direction}\n"
@@ -132,11 +154,10 @@ def generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes):
 
         dot.render(flowchart_image_path, cleanup=True)
 
-        # NEW: Print image size using PIL
+        # Resize the image to 512x512
         image_path_with_extension = flowchart_image_path + ".png"
-        with Image.open(image_path_with_extension) as img:
-            width, height = img.size
-            print(f"Flowchart {flowchart_index} image size: {width}x{height} pixels")
+        resized_size = resize_image(image_path_with_extension, output_size=(512, 512))
+        print(f"Flowchart {flowchart_index} resized image size: {resized_size[0]}x{resized_size[1]} pixels")
 
         # Save Mermaid
         mermaid_text_path = os.path.join(
@@ -154,6 +175,6 @@ def generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes):
 # Generate the results (Can control variables here)
 if __name__ == "__main__":
     num_flowcharts = 2  # Number of new flowcharts to generate
-    min_nodes = 5       # Minimum number of nodes
-    max_nodes = 8       # Maximum number of nodes
+    min_nodes = 10       # Minimum number of nodes
+    max_nodes = 10      # Maximum number of nodes
     generate_linear_flowchart(num_flowcharts, min_nodes, max_nodes)
