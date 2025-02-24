@@ -1,0 +1,1602 @@
+[
+    {
+        "index_num": 1,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_1.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_1.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 2,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_2.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_2.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 3,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_3.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_3.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 4,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_4.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_4.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 5,
+        "description": "This is a solid brown color image.",
+        "file_link": "model_input_test/color_img/color_img_5.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_5.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color brown?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 6,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_6.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_6.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 7,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_7.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_7.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 8,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_8.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_8.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 9,
+        "description": "This is a solid red color image.",
+        "file_link": "model_input_test/color_img/color_img_9.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_9.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color red?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 10,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_10.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_10.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 11,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_11.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_11.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 12,
+        "description": "This is a solid turquoise color image.",
+        "file_link": "model_input_test/color_img/color_img_12.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_12.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color turquoise?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 13,
+        "description": "This is a solid red color image.",
+        "file_link": "model_input_test/color_img/color_img_13.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_13.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color red?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 14,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_14.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_14.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 15,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_15.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_15.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 16,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_16.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_16.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 17,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_17.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_17.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 18,
+        "description": "This is a solid purple color image.",
+        "file_link": "model_input_test/color_img/color_img_18.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_18.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color purple?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 19,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_19.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_19.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 20,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_20.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_20.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 21,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_21.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_21.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 22,
+        "description": "This is a solid purple color image.",
+        "file_link": "model_input_test/color_img/color_img_22.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_22.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color purple?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 23,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_23.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_23.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 24,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_24.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_24.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 25,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_25.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_25.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 26,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_26.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_26.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 27,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_27.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_27.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 28,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_28.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_28.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 29,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_29.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_29.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 30,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_30.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_30.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 31,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_31.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_31.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 32,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_32.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_32.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 33,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_33.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_33.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 34,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_34.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_34.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 35,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_35.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_35.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 36,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_36.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_36.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 37,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_37.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_37.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 38,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_38.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_38.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 39,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_39.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_39.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 40,
+        "description": "This is a solid brown color image.",
+        "file_link": "model_input_test/color_img/color_img_40.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_40.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color brown?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 41,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_41.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_41.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 42,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_42.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_42.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 43,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_43.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_43.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 44,
+        "description": "This is a solid white color image.",
+        "file_link": "model_input_test/color_img/color_img_44.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_44.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color white?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 45,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_45.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_45.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 46,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_46.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_46.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 47,
+        "description": "This is a solid brown color image.",
+        "file_link": "model_input_test/color_img/color_img_47.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_47.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color brown?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 48,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_48.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_48.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 49,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_49.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_49.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 50,
+        "description": "This is a solid red color image.",
+        "file_link": "model_input_test/color_img/color_img_50.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_50.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color red?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 51,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_51.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_51.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 52,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_52.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_52.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 53,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_53.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_53.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 54,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_54.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_54.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 55,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_55.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_55.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 56,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_56.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_56.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 57,
+        "description": "This is a solid purple color image.",
+        "file_link": "model_input_test/color_img/color_img_57.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_57.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color purple?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 58,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_58.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_58.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 59,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_59.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_59.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 60,
+        "description": "This is a solid brown color image.",
+        "file_link": "model_input_test/color_img/color_img_60.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_60.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color brown?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 61,
+        "description": "This is a solid turquoise color image.",
+        "file_link": "model_input_test/color_img/color_img_61.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_61.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color turquoise?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 62,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_62.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_62.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 63,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_63.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_63.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 64,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_64.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_64.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 65,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_65.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_65.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 66,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_66.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_66.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 67,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_67.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_67.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 68,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_68.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_68.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 69,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_69.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_69.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 70,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_70.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_70.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 71,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_71.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_71.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 72,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_72.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_72.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 73,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_73.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_73.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 74,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_74.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_74.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 75,
+        "description": "This is a solid purple color image.",
+        "file_link": "model_input_test/color_img/color_img_75.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_75.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color purple?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 76,
+        "description": "This is a solid turquoise color image.",
+        "file_link": "model_input_test/color_img/color_img_76.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_76.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color turquoise?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 77,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_77.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_77.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 78,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_78.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_78.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 79,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_79.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_79.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 80,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_80.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_80.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 81,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_81.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_81.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 82,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_82.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_82.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 83,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_83.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_83.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 84,
+        "description": "This is a solid brown color image.",
+        "file_link": "model_input_test/color_img/color_img_84.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_84.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color brown?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 85,
+        "description": "This is a solid gray color image.",
+        "file_link": "model_input_test/color_img/color_img_85.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_85.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color gray?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 86,
+        "description": "This is a solid green color image.",
+        "file_link": "model_input_test/color_img/color_img_86.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_86.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color green?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 87,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_87.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_87.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 88,
+        "description": "This is a solid yellow color image.",
+        "file_link": "model_input_test/color_img/color_img_88.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_88.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color yellow?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 89,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_89.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_89.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 90,
+        "description": "This is a solid black color image.",
+        "file_link": "model_input_test/color_img/color_img_90.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_90.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color black?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 91,
+        "description": "This is a solid lime color image.",
+        "file_link": "model_input_test/color_img/color_img_91.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_91.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color lime?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 92,
+        "description": "This is a solid orange color image.",
+        "file_link": "model_input_test/color_img/color_img_92.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_92.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color orange?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 93,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_93.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_93.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 94,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_94.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_94.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 95,
+        "description": "This is a solid turquoise color image.",
+        "file_link": "model_input_test/color_img/color_img_95.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_95.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color turquoise?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 96,
+        "description": "This is a solid pink color image.",
+        "file_link": "model_input_test/color_img/color_img_96.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_96.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color pink?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 97,
+        "description": "This is a solid blue color image.",
+        "file_link": "model_input_test/color_img/color_img_97.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_97.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color blue?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 98,
+        "description": "This is a solid cyan color image.",
+        "file_link": "model_input_test/color_img/color_img_98.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_98.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color cyan?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 99,
+        "description": "This is a solid magenta color image.",
+        "file_link": "model_input_test/color_img/color_img_99.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_99.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color magenta?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    },
+    {
+        "index_num": 100,
+        "description": "This is a solid turquoise color image.",
+        "file_link": "model_input_test/color_img/color_img_100.png",
+        "pixel_values_link": "model_input_test/pixel_values/pixel_values_100.json",
+        "QA_pairs": [
+            {
+                "question": "Is this color turquoise?",
+                "answer": "Yes"
+            },
+            {
+                "question": "Is this color some other color?",
+                "answer": "No"
+            }
+        ]
+    }
+]
