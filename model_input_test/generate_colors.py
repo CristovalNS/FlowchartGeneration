@@ -4,6 +4,8 @@ import random
 import numpy as np
 from PIL import Image
 
+# This code is unoptimized. Could be optimized for faster generation.
+
 # Directory to save images
 output_dir = "model_input_test"
 image_dir = os.path.join(output_dir, "color_img")
@@ -39,40 +41,46 @@ for i in range(100):
     # Randomly select a color
     color_name, color_rgb = random.choice(list(colors.items()))
 
-    # Create a 214x214 image with the selected color
-    image = Image.new('RGB', (214, 214), color_rgb)
+    # Set 224x224 - THIS IS IMPORTANT
+    image = Image.new('RGB', (224, 224), color_rgb)
     image_filename = f"color_img_{i + 1}.png"
     image_path = os.path.join(image_dir, image_filename)
 
     # Save the image
     image.save(image_path)
 
-    # Convert image to NumPy array with shape (3, 214, 214)
-    image_array = np.array(image).transpose((2, 0, 1))  # Transpose to (3, 214, 214)
+    # Convert image to NumPy array with shape (3, 224, 224)
+    image_array = np.array(image).transpose((2, 0, 1))  # Shape: (3, 224, 224)
+
+    # ✅ Normalize pixel values to the range [0, 1]
+    normalized_image_array = image_array / 255.0
+
+    # Save normalized pixel values
     pixel_values_filename = f"pixel_values_{i + 1}.json"
     pixel_values_path = os.path.join(pixel_values_dir, pixel_values_filename)
 
-    # Save pixel values to separate JSON file
     with open(pixel_values_path, 'w') as pixel_file:
-        json.dump(image_array.tolist(), pixel_file)
+        json.dump(normalized_image_array.tolist(), pixel_file)
 
-    # Prepare JSON entry
+    # ✅ Prepare JSON entry with 'labels' structure
     image_data = {
         "index_num": i + 1,
-        "description": f"This is a solid {color_name.lower()} color image.",
-        "file_link": f"model_input_test/color_img/{image_filename}",
-        "pixel_values_link": f"model_input_test/pixel_values/{pixel_values_filename}",
-        "QA_pairs": [
-            {"question": f"Is this color {color_name.lower()}?", "answer": "Yes"},
-            {"question": f"Is this color some other color?", "answer": "No"}
-        ]
+        "file_link": f"color_img/{image_filename}",
+        "pixel_values_link": f"pixel_values/{pixel_values_filename}",
+        "labels": {
+            "description": f"This is a solid {color_name.lower()} color image.",
+            "QA_pairs": [
+                {"question": f"Is this color {color_name.lower()}?", "answer": "Yes"},
+                {"question": f"Is this color some other color?", "answer": "No"}
+            ]
+        }
     }
     image_data_list.append(image_data)
 
     # Debug output
     print(f"Generated image {i + 1}: {color_name} saved as {image_filename}")
 
-# Save JSON file
+# ✅ Save JSON file
 json_output_path = os.path.join(output_dir, "color_images_metadata.json")
 with open(json_output_path, 'w') as json_file:
     json.dump(image_data_list, json_file, indent=4)
